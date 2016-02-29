@@ -27,10 +27,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::initialize(QRect rect)
 {
-    //showFullScreen();
-
-
+#ifdef __linux__
     resize(rect.width(), rect.height());
+#elif _WIN32
+    showFullScreen();
+#endif
 
     cur_width = widget->width();
     cur_height = widget->height();
