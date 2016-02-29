@@ -1,0 +1,11 @@
+# .pro.user files
+*.pro.user*
+
+# make files
+Make*
+
+# executed file
+FlysProject
+
+# object_scripts
+object_script*

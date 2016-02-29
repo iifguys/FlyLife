@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/deadFly.png</file>
+        <file>images/deadFlySelected.png</file>
+        <file>images/fly.png</file>
+        <file>images/flySelected.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>icons/Clear.png</file>
+        <file>icons/Exit.png</file>
+        <file>icons/Fly.png</file>
+        <file>icons/Play.png</file>
+        <file>icons/Stop.png</file>
+        <file>icons/Exit2.png</file>
+    </qresource>
+    <qresource prefix="/snd">
+        <file>sounds/F-kin_Fly.wav</file>
+    </qresource>
+</RCC>
